@@ -1,0 +1,6 @@
+imagen:
+
+prompt:
+
+parametros:
+
