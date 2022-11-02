@@ -86,48 +86,48 @@ function swapAnt()
 //!________________________________________________________________________________________
 
 function hidePort() {
-    element = document.querySelector('port_demo_vis-inv');
-    element.style.visibility = 'hidden';
+    element1 = document.querySelector('port_demo_vis-inv');
+    style.display = 'none'
     
-    element = document.querySelector('#vis-inv3');
-    element.style.visibility = 'hidden';
+    element2 = document.querySelector('#vis-inv3');
+    style.display = 'none';
     
-    element = document.querySelector('#inv-vis3');
-    element.style.visibility = 'visible';
+    element3 = document.querySelector('#inv-vis3');
+    style.display = 'inline'
 
-    element = document.querySelector('#img_a');
-    element.style.visibility = 'visible';    
+    element4 = document.querySelector('#img_a');
+    style.display = 'block'    
 
-    element = document.querySelector('#guia_id');
-    element.style.visibility = 'visible';    
+    element5 = document.querySelector('#guia_id');
+    element5.style.visibility = 'visible';    
     
-    element = document.querySelector('#pie_demo');
-    element.style.visibility = 'visible';  
+    element6 = document.querySelector('#pie_demo');
+    element6.style.visibility = 'visible';  
 }    
     
 //!________________________________________________________________________________________
 
 function showElement() {
     
-    element = document.querySelector('#bot_ant');
-    element.style.visibility = 'visible';
+    element7 = document.querySelector('#bot_ant');
+    element7.style.visibility = 'visible';
 
-    element = document.querySelector('#inv-vis1');
-    element.style.visibility = 'visible';
+    element8 = document.querySelector('#inv-vis1');
+    element8.style.visibility = 'visible';
 
-    element = document.querySelector('#inv-vis2');
-    element.style.visibility = 'visible';
+    element8 = document.querySelector('#inv-vis2');
+    element8.style.visibility = 'visible';
 }
 
 function hideElement() {
-    element = document.querySelector('#bot_ant');
-    element.style.visibility = 'hidden';
+    element7 = document.querySelector('#bot_ant');
+    element7.style.visibility = 'hidden';
     
-    element = document.querySelector('#inv-vis1');
-    element.style.visibility = 'hidden';
+    element8 = document.querySelector('#inv-vis1');
+    element8.style.visibility = 'hidden';
 
-    element = document.querySelector('#inv-vis2');
-    element.style.visibility = 'hidden';
+    element9 = document.querySelector('#inv-vis2');
+    element9.style.visibility = 'hidden';
 }
 
 //!________________________________________________________________________________________
