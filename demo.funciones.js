@@ -85,9 +85,29 @@ function swapAnt()
 
 //!________________________________________________________________________________________
 
-function showElement() {
-    element = document.querySelector('#guia_id');
+function hidePort() {
+    element = document.querySelector('port_demo_vis-inv');
+    element.style.visibility = 'hidden';
+    
+    element = document.querySelector('#vis-inv3');
+    element.style.visibility = 'hidden';
+    
+    element = document.querySelector('#inv-vis3');
     element.style.visibility = 'visible';
+
+    element = document.querySelector('#img_a');
+    element.style.visibility = 'visible';    
+
+    element = document.querySelector('#guia_id');
+    element.style.visibility = 'visible';    
+    
+    element = document.querySelector('#pie_demo');
+    element.style.visibility = 'visible';  
+}    
+    
+//!________________________________________________________________________________________
+
+function showElement() {
     
     element = document.querySelector('#bot_ant');
     element.style.visibility = 'visible';
