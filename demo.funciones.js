@@ -95,7 +95,7 @@ function hidePort() {
     element3 = document.querySelector('#inv-vis3');
     style.display = 'inline'
 
-    element4 = document.querySelector('#img_a');
+    element4 = document.querySelector('#port_demo_inv-vis');
     style.display = 'block'    
 
     element5 = document.querySelector('#guia_id');
