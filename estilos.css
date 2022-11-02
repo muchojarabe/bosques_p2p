@@ -153,11 +153,11 @@ main a {
 }    
 
 #img_a {
-    visibility: hidden;
+    display = 'none';
 }
 
 #inv-vis3 {
-    visibility: hidden;
+    display = 'none';
 }    
 
 .cont_img_section::-webkit-scrollbar {
