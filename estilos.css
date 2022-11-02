@@ -16,6 +16,10 @@ body > footer a:hover, a:active {
     color: rgba(52, 52, 52, 0.5);
 }
 
+#port_demo_vis-inv:hover {
+    filter: brightness(1.1);
+}
+
 html {
     height: 100%;
     margin: 0px;
@@ -140,9 +144,13 @@ main a {
     border-bottom-right-radius: 0cm;
 }
 
-/* .cont_img_section img:hover {
-    filter: brightness(110%);
-} */
+#img_a {
+    visibility: hidden;
+}
+
+#inv-vis3 {
+    visibility: hidden;
+}    
 
 .cont_img_section::-webkit-scrollbar {
     display: none;
@@ -195,7 +203,7 @@ main a {
 
 #slider_01 {
     display: block;
-    margin: 0px auto;
+    margin: 0px;
     background-color: lightcoral;
 }
 
@@ -220,6 +228,10 @@ main a {
 .pie_padre p {
     font-size: 12px;
     margin: 0;
+}
+
+#pie_demo {
+    visibility: hidden;
 }
 
 .pie_izq {
