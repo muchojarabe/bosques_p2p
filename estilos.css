@@ -148,18 +148,6 @@ main a {
     border-bottom-right-radius: 0cm;
 }
 
-#port_demo_vis-inv {
-    border-radius: 20px;
-}    
-
-#img_a {
-    display = 'none';
-}
-
-#inv-vis3 {
-    display = 'none';
-}    
-
 .cont_img_section::-webkit-scrollbar {
     display: none;
 }
@@ -214,6 +202,18 @@ main a {
     margin: 0px;
     background-color: lightcoral;
 }
+
+#port_demo_vis-inv img {
+    border-radius: 20px;
+}    
+
+#port_demo_inv-vis {
+    display = 'none';
+}
+
+#inv-vis3 {
+    display = 'none';
+}    
 
 /*! PIE */
 
