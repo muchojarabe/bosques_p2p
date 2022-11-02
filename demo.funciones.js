@@ -41,7 +41,7 @@ function swapSig()
             numeroPuroImagen++; // Incrementar
         }
         numeroStrImagen = numeroPuroImagen + "";
-        document.getElementById("img_a").src = ("img/_" + numeroStrImagen + ".png"); //Asignar imagen
+        document.getElementById("img_a").src = ("img/a" + numeroStrImagen + ".png"); //Asignar imagen
         document.getElementById("pie_texto").innerHTML = (listaTexto[numeroPuroImagen]); //Asignar pie
         document.getElementById("num_pagina").innerHTML = (numeroPuroImagen); //Asignar num pagina
         showElement()
@@ -71,7 +71,7 @@ function swapAnt()
             numeroPuroImagen--; // Decrementar
         }
         numeroStrImagen = numeroPuroImagen + "";
-        document.getElementById("img_a").src = ("img/_" + numeroStrImagen + ".png"); //Asignar imagen
+        document.getElementById("img_a").src = ("img/a" + numeroStrImagen + ".png"); //Asignar imagen
         document.getElementById("pie_texto").innerHTML = (listaTexto[numeroPuroImagen]); //Asignar pie
         document.getElementById("num_pagina").innerHTML = (numeroPuroImagen); //Asignar num pagina
         if (numeroPuroImagen == 6) {hideElement()}
